@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Modulo di iscrizione</h1>
+<form action="https://server.com/register.php" method="POST">
+Cognome:        <input type="text" name="Cognome" ><br>
+Nome:           <input type="text" name="Nome"><br>
+Data di nascita <input type="date" name="data" ><br>
+Sesso: <input type="radio" id="Uomo" name="gender" value="Uomo">
+<label for="Uomo">Uomo</label>
+<input type="radio" id="Donna" name="gender" value="Donna">
+<label for="Donna">Donna</label>
+Telefono: <input type="text" name="Telefono" value=""><br>
+Provincia: <input type="text" name="Provinica" value="PV"><br><br>
+Secondo quali modalità si desidera ricevere maggiori informazioni?<br>(sono ammesse scelte multiple)<input type="checkbox" id="scelta1" name="scelta1" >
+<label for="scelta1">Posta ordinaria</label>
+<input type="checkbox" name="scelta2" value="scelta2">
+<label for="scelta2">Posta elettronica</label>
+<input type="checkbox" name="scelta3" value="scelta3">
+<label for="scelta3">Telefono</label><br>
+<br><p>(specificare eventuali richieste particolari)</p><textarea name="Note" rows="8" cols="80">Scrivi qui</textarea>
+<br><br><input type="submit" name="invia" value="">invia
+
+
+
+
+
+
+
+
+</body>
+</html>
